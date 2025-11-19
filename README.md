@@ -1,4 +1,6 @@
-
+<div align="center">
+<h1>Joe LeBoube</h1>
+</div>
 
 <img src="https://github.com/jleboube/jleboube/blob/main/Joe_LeBoube_On_Stage_Speaking.png" alt="Joe LeBoube Speaking at Conference">
 
@@ -70,10 +72,15 @@ Here are some ideas to get you started:
 
 <hr>
 
-<div align="center"> 
+
+[![Muscl3N3rd's GitHub stats](https://github-readme-stats.vercel.app/api?username=jleboube)](https://github.com/jleboube/github-readme-stats&show_icons=true&theme=transparent)
+
+
+
+<!-- <div align="center"> 
   <p>Visitor count</p>
   <img src="https://profile-counter.glitch.me/jleboube/count.svg" alt="Visitor's Count" />
-</div>
+</div> -->
 
 
 
