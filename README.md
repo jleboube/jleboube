@@ -54,7 +54,7 @@ Here are some ideas to get you started:
 
 <div align=center>
   <img width=390 src="https://github-readme-stats.vercel.app/api?username=jleboube&theme=transparent&count_private=true&show_icons=true&rank_icon=github&locale=en" alt="jleboube's GitHub Stats" />
-  <img width=390 src="https://github-readme-streak-stats.herokuapp.com/?user=jleboube&theme=transparent&count_private=true&border_radius=10&locale=en" alt="jleboube's" />
+  <img width=390 src="https://github-readme-streak-stats-eight.vercel.app/?user=jleboube&theme=transparent&card_height=209&count_private=true&border_radius=10&locale=en" alt="jleboube's" />
   <img width=325 src="https://github-readme-stats.vercel.app/api/top-langs?username=jleboube&theme=transparent&layout=donut&hide=css&langs_count=8&border_radius=10&show_icons=true&locale=en" alt="jleboube's Most Used Languages" />
 </div>
 
@@ -72,26 +72,12 @@ Here are some ideas to get you started:
 
 <hr>
 
-
+<!-- 
 [![Muscl3N3rd's GitHub stats](https://github-readme-stats.vercel.app/api?username=jleboube)](https://github.com/jleboube/github-readme-stats&show_icons=true&theme=transparent)
 
 
 
-<!-- <div align="center"> 
+<div align="center"> 
   <p>Visitor count</p>
   <img src="https://profile-counter.glitch.me/jleboube/count.svg" alt="Visitor's Count" />
 </div> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
