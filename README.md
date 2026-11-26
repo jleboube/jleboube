@@ -24,16 +24,14 @@ I've spent 20+ years in tech, from the help desk to AI ops. These days I'm a Sr 
 
 ## What I'm shipping
 
-| | Project | What it does | Status |
-|:-:|---|---|---|
-| 💡 | **[Ideabot](https://ideabot.leboube.ai)** | The daily record of what people actually do with AI agents: the top 5 real use cases every morning, each with the result, a prompt to copy and the source. | ![Live](assets/badges/status-live.svg) |
-| 🟧 | **[Pop a Pixel](https://popapixel.com)** | A daily picture puzzle. Start from a blurry mosaic, pop only the tiles you choose, and name the picture in as few pops as you can. | ![Live](assets/badges/status-live.svg) |
-| ⚾ | **[Third Base Math](https://thirdbasemath.com)** | Turns a GameChanger season export into printable steal, bunt and send-or-hold cards for youth, high school and travel coaches. Runs in the browser and uploads nothing. | ![Live](assets/badges/status-live.svg) |
-| 📒 | **[Agent Ledger for Jira](https://marketplace.atlassian.com/apps/2416986037/agent-ledger-ai-coding-agent-analytics-for-jira)** | Shows which Jira work items AI coding agents handled, how their pull requests held up, and what each item cost. | ![Atlassian Marketplace](assets/badges/status-marketplace.svg) |
-| 🔎 | **[Spec Watch for Jira and Confluence](https://archbadger500.com/spec-watch/support)** | Flags Confluence specs and runbooks when a linked Jira issue changes after the page was last edited. | ![In review](assets/badges/status-review.svg) |
-| ✅ | **[Agent-Ready Check for Jira](https://archbadger500.com/agent-ready-check/docs)** | Scores whether an AI coding agent can start on a Jira work item, and shows what to fix before you hand it over. | ![In review](assets/badges/status-review.svg) |
-| 🌙 | **[Duskclerk](https://duskclerk.com)** | An AI night clerk for small trade shops that answers only after hours. Not answering real calls yet; try a test call in the browser simulator. | ![Early preview](assets/badges/status-preview.svg) |
-| 🔊 | **[Shirp](https://shirp.party)** | Send text and files between devices using sound, in audible or near-ultrasonic modes. | ![Live](assets/badges/status-live.svg) |
+- 💡 **[Ideabot](https://ideabot.leboube.ai)** ![Live](assets/badges/status-live.svg)<br/>The daily record of what people actually do with AI agents: the top 5 real use cases every morning, each with the result, a prompt to copy and the source.
+- 🟧 **[Pop a Pixel](https://popapixel.com)** ![Live](assets/badges/status-live.svg)<br/>A daily picture puzzle. Start from a blurry mosaic, pop only the tiles you choose, and name the picture in as few pops as you can.
+- ⚾ **[Third Base Math](https://thirdbasemath.com)** ![Live](assets/badges/status-live.svg)<br/>Turns a GameChanger season export into printable steal, bunt and send-or-hold cards for youth, high school and travel coaches. Runs in the browser and uploads nothing.
+- 📒 **[Agent Ledger for Jira](https://marketplace.atlassian.com/apps/2416986037/agent-ledger-ai-coding-agent-analytics-for-jira)** ![Atlassian Marketplace](assets/badges/status-marketplace.svg)<br/>Shows which Jira work items AI coding agents handled, how their pull requests held up, and what each item cost.
+- 🔎 **[Spec Watch for Jira and Confluence](https://archbadger500.com/spec-watch/support)** ![In review](assets/badges/status-review.svg)<br/>Flags Confluence specs and runbooks when a linked Jira issue changes after the page was last edited.
+- ✅ **[Agent-Ready Check for Jira](https://archbadger500.com/agent-ready-check/docs)** ![In review](assets/badges/status-review.svg)<br/>Scores whether an AI coding agent can start on a Jira work item, and shows what to fix before you hand it over.
+- 🌙 **[Duskclerk](https://duskclerk.com)** ![Early preview](assets/badges/status-preview.svg)<br/>An AI night clerk for small trade shops that answers only after hours. Not answering real calls yet; try a test call in the browser simulator.
+- 🔊 **[Shirp](https://shirp.party)** ![Live](assets/badges/status-live.svg)<br/>Send text and files between devices using sound, in audible or near-ultrasonic modes.
 
 <sub>The Atlassian apps are built by Arch Badger 500, LLC. More at <a href="https://joeleboube.com/work/">joeleboube.com/work</a>.</sub>
 

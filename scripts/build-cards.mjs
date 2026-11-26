@@ -77,9 +77,6 @@ function card(c, title, body, h = H) {
 .l{font-family:${SANS};font-weight:600;font-size:13px;fill:${c.text}}
 .p{font-family:${MONO};font-size:12px;fill:${c.muted}}
 .f{font-family:${MONO};font-size:10px;fill:${c.muted}}
-.in{animation:in .8s ease-out both}
-@keyframes in{from{opacity:0;transform:translateY(6px)}}
-@media (prefers-reduced-motion:reduce){.in{animation:none}}
 </style>
 <rect x=".5" y=".5" width="${W - 1}" height="${h - 1}" rx="16" fill="${c.panel}" stroke="${c.border}"/>
 <rect x="24" y="26" width="10" height="10" rx="2" class="a"/><rect x="38" y="26" width="10" height="10" rx="2" class="h"/>
@@ -91,7 +88,7 @@ ${body}
 
 function statsCard(c) {
   const cell = (x, y, label, value, cls = "v", delay = 0) =>
-    `<g class="in" style="animation-delay:${delay}s"><text x="${x}" y="${y}" class="k">${esc(label)}</text><text x="${x}" y="${y + 32}" class="${cls}">${esc(value)}</text></g>`;
+    `<g><text x="${x}" y="${y}" class="k">${esc(label)}</text><text x="${x}" y="${y + 32}" class="${cls}">${esc(value)}</text></g>`;
   const body = [
     cell(24, 72, "CONTRIBUTIONS · ALL TIME", fmt(allTime), "v", 0),
     cell(250, 72, "PAST 365 DAYS", fmt(lastYear), "v", 0.1),
@@ -122,7 +119,7 @@ function langCard(c) {
   const rest = `<rect x="24" y="62" width="${barW}" height="12" rx="6" fill="${c.border}"/>`;
   const legend = top.map(([n, b], i) => {
     const lx = 24 + (i % 2) * 210, ly = 104 + Math.floor(i / 2) * 26;
-    return `<g class="in" style="animation-delay:${(i * 0.08).toFixed(2)}s"><rect x="${lx}" y="${ly - 10}" width="11" height="11" rx="3" fill="${cols[i]}"/><text x="${lx + 19}" y="${ly}" class="l">${esc(n)}</text><text x="${lx + 186}" y="${ly}" class="p" text-anchor="end">${((b / totalBytes) * 100).toFixed(1)}%</text></g>`;
+    return `<g><rect x="${lx}" y="${ly - 10}" width="11" height="11" rx="3" fill="${cols[i]}"/><text x="${lx + 19}" y="${ly}" class="l">${esc(n)}</text><text x="${lx + 186}" y="${ly}" class="p" text-anchor="end">${((b / totalBytes) * 100).toFixed(1)}%</text></g>`;
   });
   const body = `<clipPath id="bar"><rect x="24" y="62" width="${barW}" height="12" rx="6"/></clipPath>
 ${rest}<g clip-path="url(#bar)">${segs.join("")}</g>
