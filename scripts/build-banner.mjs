@@ -5,6 +5,7 @@ import { palettes, fontFaceCss, SANS, MONO, MONO_ADVANCE, esc } from "./theme.mj
 
 const phrases = [
   "Sr AI Operations Engineer",
+  "CTO of MediKin Health",
   "20+ years in cloud & AI",
   "Shipping on Cloudflare Workers + D1",
   "Building with a team of Grok Bots",
@@ -70,7 +71,7 @@ for (let r = 0; r < 6; r++) for (let k = 0; k < 9; k++) {
 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-labelledby="t d">
 <title id="t">Joe LeBoube</title>
-<desc id="d">Sr AI Operations Engineer. 20+ years in cloud and AI. Builds on Cloudflare Workers.</desc>
+<desc id="d">Sr AI Operations Engineer. CTO of MediKin Health. 20+ years in cloud and AI. Builds on Cloudflare Workers.</desc>
 <style>
 ${fontFaceCss()}
 .name{font-family:${SANS};font-weight:800;font-size:92px;fill:${c.text};letter-spacing:-2px}

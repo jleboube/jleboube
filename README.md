@@ -1,5 +1,5 @@
 <a href="https://joeleboube.com">
-  <img src="assets/banner.svg" alt="Joe LeBoube: Sr AI Operations Engineer, 20+ years in cloud and AI" width="100%" />
+  <img src="assets/banner.svg" alt="Joe LeBoube: Sr AI Operations Engineer and CTO of MediKin Health, 20+ years in cloud and AI" width="100%" />
 </a>
 
 <p align="center">
@@ -13,7 +13,7 @@
 
 ### Hey, I'm Joe.
 
-I've spent 20+ years in tech, from the help desk to AI ops. These days I'm a Sr AI Operations Engineer, and I run **[Arch Badger 500, LLC](https://archbadger500.com)**, where I help software companies get stalled implementations live.
+I've spent 20+ years in tech, from the help desk to AI ops. These days I'm a Sr AI Operations Engineer and CTO of **[MediKin Health](https://medikinhealth.com)**, and I run **[Arch Badger 500, LLC](https://archbadger500.com)**, where I help software companies get stalled implementations live.
 
 - Building and running products with a team of AI agents, mostly on **Cloudflare Workers + D1**
 - Self-hosting 25+ apps on my own **Kubernetes** cluster
