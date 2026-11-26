@@ -1,0 +1,54 @@
+# Rebuilds the profile cards (stats, languages) and the contribution snake,
+# then publishes them to the `profile-assets` branch that README.md points at.
+# Uses only the default GITHUB_TOKEN. Nothing is hosted outside GitHub.
+name: Profile assets
+
+on:
+  schedule:
+    - cron: "17 */12 * * *"   # every 12 hours (runs from the default branch)
+  workflow_dispatch:
+  push:
+    branches: [main, "redesign/**"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Build stats + languages cards
+        run: node scripts/build-cards.mjs "${{ github.repository_owner }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OUT_DIR: profile-assets
+
+      - name: Build contribution snake (Espresso palette)
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            profile-assets/snake-light.svg?color_snake=#8a3517&color_dots=#efe3cf,#f2c98a,#e3a332,#c9632a,#b34119
+            profile-assets/snake-dark.svg?color_snake=#ec6a35&color_dots=#2a1912,#5a2a14,#8a3517,#c9802a,#e3a332&color_dot_border=#1c100b
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish to the profile-assets branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: profile-assets
+          build_dir: profile-assets
+          commit_message: "Update profile cards and snake"
+          jekyll: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

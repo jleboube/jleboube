@@ -1,83 +1,78 @@
-<div align="center">
-<h1>Joe LeBoube</h1>
-</div>
-
-<img src="https://github.com/jleboube/jleboube/blob/main/Joe_LeBoube_On_Stage_Speaking.png" alt="Joe LeBoube Speaking at Conference">
-
-- 🌱 I’m currently learning **[Vibe Coding](https://joeleboube.com/projects)**
-- 💬 Check out my **resume [here](https://joeleboube.com/resume)**
-
-<br>
-
-<div align="center">
-  <a href="joeleboube@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
-  </a>
-  <a href="https://linkedin.com/in/joe-leboube" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
-  </a>
-</div>
-
-<hr>
-
-## 🛠️ Languages and Tools
-
-<br>
+<a href="https://joeleboube.com">
+  <img src="assets/banner.svg" alt="Joe LeBoube: Sr AI Operations Engineer, 20+ years in cloud and AI" width="100%" />
+</a>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=docker,bash,java,spring,ts,nodejs,react,nextjs,mongodb,postgres,prisma" />
-  <img src="https://skillicons.dev/icons?i=html,css,sass,tailwind,js,vue,redux,d3,git,postman,figma"/>
+  <a href="https://joeleboube.com"><img src="https://img.shields.io/badge/joeleboube.com-b34119?style=for-the-badge&logo=googlechrome&logoColor=f6ead8" alt="joeleboube.com" /></a>
+  <a href="https://www.linkedin.com/in/joe-leboube"><img src="https://img.shields.io/badge/LinkedIn-2a1912?style=for-the-badge&logo=linkedin&logoColor=e3a332" alt="LinkedIn" /></a>
+  <a href="https://archbadger500.com"><img src="https://img.shields.io/badge/Arch_Badger_500-2a1912?style=for-the-badge&logo=atlassian&logoColor=e3a332" alt="Arch Badger 500, LLC" /></a>
+  <a href="https://joeleboube.com/blog/"><img src="https://img.shields.io/badge/Blog-2a1912?style=for-the-badge&logo=rss&logoColor=e3a332" alt="Blog" /></a>
 </p>
 
-<hr>
+<img src="assets/on-stage.jpg" alt="Joe LeBoube speaking on stage" width="300" align="right" />
 
+### Hey, I'm Joe.
 
+I've spent 20+ years in tech, from the help desk to AI ops. These days I'm a Sr AI Operations Engineer, and I run **[Arch Badger 500, LLC](https://archbadger500.com)**, where I help software companies get stalled implementations live.
 
-<!--
-**jleboube/jleboube** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- Building and running products with a team of AI agents, mostly on **Cloudflare Workers + D1**
+- Self-hosting 25+ apps on my own **Kubernetes** cluster
+- Building baseball apps for fun, and serving as commissioner of the family NFL pick'em
+- Started my career delivering pizzas
 
-Here are some ideas to get you started:
+<br clear="right" />
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## What I'm shipping
 
-## ⚡️ Stats
+| | Project | What it does | Status |
+|:-:|---|---|---|
+| 💡 | **[Ideabot](https://ideabot.leboube.ai)** | The daily record of what people actually do with AI agents: the top 5 real use cases every morning, each with the result, a prompt to copy and the source. | ![Live](https://img.shields.io/badge/live-4b5728?style=flat-square) |
+| 🟧 | **[Pop a Pixel](https://popapixel.com)** | A daily picture puzzle. Start from a blurry mosaic, pop only the tiles you choose, and name the picture in as few pops as you can. | ![Live](https://img.shields.io/badge/live-4b5728?style=flat-square) |
+| ⚾ | **[Third Base Math](https://thirdbasemath.com)** | Turns a GameChanger season export into printable steal, bunt and send-or-hold cards for youth, high school and travel coaches. Runs in the browser and uploads nothing. | ![Live](https://img.shields.io/badge/live-4b5728?style=flat-square) |
+| 📒 | **[Agent Ledger for Jira](https://marketplace.atlassian.com/apps/2416986037/agent-ledger-ai-coding-agent-analytics-for-jira)** | Shows which Jira work items AI coding agents handled, how their pull requests held up, and what each item cost. | ![Atlassian Marketplace](https://img.shields.io/badge/atlassian_marketplace-4b5728?style=flat-square) |
+| 🔎 | **[Spec Watch for Jira and Confluence](https://archbadger500.com/spec-watch/support)** | Flags Confluence specs and runbooks when a linked Jira issue changes after the page was last edited. | ![In review](https://img.shields.io/badge/in_marketplace_review-8a3517?style=flat-square) |
+| ✅ | **[Agent-Ready Check for Jira](https://archbadger500.com/agent-ready-check/docs)** | Scores whether an AI coding agent can start on a Jira work item, and shows what to fix before you hand it over. | ![In review](https://img.shields.io/badge/in_marketplace_review-8a3517?style=flat-square) |
+| 🌙 | **[Duskclerk](https://duskclerk.com)** | An AI night clerk for small trade shops that answers only after hours. Not answering real calls yet; try a test call in the browser simulator. | ![Early preview](https://img.shields.io/badge/early_preview-c9802a?style=flat-square) |
+| 🔊 | **[Shirp](https://shirp.party)** | Send text and files between devices using sound, in audible or near-ultrasonic modes. | ![Live](https://img.shields.io/badge/live-4b5728?style=flat-square) |
 
-<br>
+<sub>The Atlassian apps are built by Arch Badger 500, LLC. More at <a href="https://joeleboube.com/work/">joeleboube.com/work</a>.</sub>
 
-<div align=center>
-  <img width=390 src="https://github-readme-stats.vercel.app/api?username=jleboube&theme=transparent&count_private=true&show_icons=true&rank_icon=github&locale=en" alt="jleboube's GitHub Stats" />
-  <img width=390 src="https://github-readme-streak-stats-eight.vercel.app/?user=jleboube&theme=transparent&card_height=209&count_private=true&border_radius=10&locale=en" alt="jleboube's" />
-  <img width=325 src="https://github-readme-stats.vercel.app/api/top-langs?username=jleboube&theme=transparent&layout=donut&hide=css&langs_count=8&border_radius=10&show_icons=true&locale=en" alt="jleboube's Most Used Languages" />
-</div>
+## What I build with
 
-<hr>
+<p>
+  <img src="https://img.shields.io/badge/Cloudflare_Workers-2a1912?style=for-the-badge&logo=cloudflareworkers&logoColor=e3a332" alt="Cloudflare Workers" />
+  <img src="https://img.shields.io/badge/D1-2a1912?style=for-the-badge&logo=cloudflare&logoColor=e3a332" alt="Cloudflare D1" />
+  <img src="https://img.shields.io/badge/Durable_Objects-2a1912?style=for-the-badge&logo=cloudflare&logoColor=e3a332" alt="Durable Objects" />
+  <img src="https://img.shields.io/badge/TypeScript-2a1912?style=for-the-badge&logo=typescript&logoColor=e3a332" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-2a1912?style=for-the-badge&logo=javascript&logoColor=e3a332" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Python-2a1912?style=for-the-badge&logo=python&logoColor=e3a332" alt="Python" />
+  <img src="https://img.shields.io/badge/Next.js-2a1912?style=for-the-badge&logo=nextdotjs&logoColor=e3a332" alt="Next.js" />
+  <img src="https://img.shields.io/badge/React-2a1912?style=for-the-badge&logo=react&logoColor=e3a332" alt="React" />
+  <img src="https://img.shields.io/badge/Node.js-2a1912?style=for-the-badge&logo=nodedotjs&logoColor=e3a332" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Docker-2a1912?style=for-the-badge&logo=docker&logoColor=e3a332" alt="Docker" />
+  <img src="https://img.shields.io/badge/Kubernetes-2a1912?style=for-the-badge&logo=kubernetes&logoColor=e3a332" alt="Kubernetes" />
+  <img src="https://img.shields.io/badge/Linode_(Akamai)-2a1912?style=for-the-badge&logo=akamai&logoColor=e3a332" alt="Linode (Akamai)" />
+  <img src="https://img.shields.io/badge/Stripe-2a1912?style=for-the-badge&logo=stripe&logoColor=e3a332" alt="Stripe" />
+</p>
 
-## 🐍 My Contributions
+## On GitHub
 
-<div align="center">
+<p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jleboube/jleboube/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jleboube/jleboube/output/github-contribution-grid-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/jleboube/jleboube/output/github-contribution-grid-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jleboube/jleboube/profile-assets/stats-dark.svg" />
+    <img src="https://raw.githubusercontent.com/jleboube/jleboube/profile-assets/stats-light.svg" alt="GitHub activity: contributions, streaks and public repos" width="49%" />
   </picture>
-</div>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jleboube/jleboube/profile-assets/languages-dark.svg" />
+    <img src="https://raw.githubusercontent.com/jleboube/jleboube/profile-assets/languages-light.svg" alt="Top languages across public repos" width="49%" />
+  </picture>
+</p>
 
-<hr>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jleboube/jleboube/profile-assets/snake-dark.svg" />
+    <img src="https://raw.githubusercontent.com/jleboube/jleboube/profile-assets/snake-light.svg" alt="A snake eating the past year of contributions" width="100%" />
+  </picture>
+</p>
 
-<!-- 
-[![Muscl3N3rd's GitHub stats](https://github-readme-stats.vercel.app/api?username=jleboube)](https://github.com/jleboube/github-readme-stats&show_icons=true&theme=transparent)
-
-
-
-<div align="center"> 
-  <p>Visitor count</p>
-  <img src="https://profile-counter.glitch.me/jleboube/count.svg" alt="Visitor's Count" />
-</div> -->
+<sub>The cards and the snake are rebuilt every 12 hours by a GitHub Action in this repo, straight from the GitHub API. No third-party stat servers.</sub>
