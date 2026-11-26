@@ -58,11 +58,11 @@ I've spent 20+ years in tech, from the help desk to AI ops. These days I'm a Sr 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jleboube/jleboube/profile-assets/stats-dark.svg" />
-    <img src="https://raw.githubusercontent.com/jleboube/jleboube/profile-assets/stats-light.svg" alt="GitHub activity: contributions, streaks and public repos" width="49%" />
+    <img src="https://raw.githubusercontent.com/jleboube/jleboube/profile-assets/stats-light.svg" alt="GitHub activity: contributions, streaks and public repos" width="380" />
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jleboube/jleboube/profile-assets/languages-dark.svg" />
-    <img src="https://raw.githubusercontent.com/jleboube/jleboube/profile-assets/languages-light.svg" alt="Top languages across public repos" width="49%" />
+    <img src="https://raw.githubusercontent.com/jleboube/jleboube/profile-assets/languages-light.svg" alt="Top languages across public repos" width="380" />
   </picture>
 </p>
 
