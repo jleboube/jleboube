@@ -1,0 +1,36 @@
+{
+  "user": "jleboube",
+  "publicRepos": 103,
+  "allTime": 2140,
+  "lastYear": 1345,
+  "longest": 25,
+  "current": 9,
+  "since": 2014,
+  "updated": "2026-11-28T07:56:24.561Z",
+  "topLanguages": [
+    {
+      "name": "TypeScript",
+      "share": 55.62
+    },
+    {
+      "name": "Python",
+      "share": 20.22
+    },
+    {
+      "name": "JavaScript",
+      "share": 16.7
+    },
+    {
+      "name": "Swift",
+      "share": 2.99
+    },
+    {
+      "name": "Shell",
+      "share": 2.16
+    },
+    {
+      "name": "Go",
+      "share": 0.85
+    }
+  ]
+}
